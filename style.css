@@ -1,0 +1,148 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Bree Serif', serif;
+    padding-top: 10%;
+  }
+  
+  a{ text-decoration: none;
+   color:#323135;}
+  a:hover{color: #0a58ca}
+  
+  .principal {
+    width: 100%;
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/images/fondo/Lotos.png)
+    }
+  
+    img{
+      width: 100%;
+      height: 100%; 
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .txt_logo{
+      font-size: 28px;
+      color:#323135;
+    }
+  
+  .headerPie{
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 50px 10px 25px;
+      top: 0;
+      width: 100%;
+      background-color: #b295d2;
+      max-height: 40px;
+        }
+  
+  header{    position: fixed;
+      top: 0;
+      width: 100%;}
+  .redes span{    font-size: 15px;}
+  .logo img{width:40px;}
+  .logo p.txt_logo{margin:0px;}
+  
+  .logo{
+      display:flex;
+      align-items: center;
+      gap: 15px;
+  }
+  span{
+      font-size: 30px;
+  }
+  .redes span {background:none!important}
+  .fbook{
+      background: #3b5998;
+      padding: 5px;
+      border-radius: 25px;
+      color: #ffffff;
+  }
+  .instagram{
+      background: #f034ce;
+      padding: 5px;
+      border-radius: 25px;
+      color: white;
+  }
+  
+  .twitter{
+      background: #00acee;
+      padding: 5px;
+      border-radius: 25px;
+      color: white;
+  }
+  
+  .ytube{
+      background: red;
+      padding: 5px;
+      border-radius: 25px;
+      color: white;
+  }
+  
+  .wtp{
+      background: rgb(2, 172, 30);
+      padding: 5px;
+      border-radius: 25px;
+      color: white;
+  }
+  .section{
+      display:flex;
+      justify-content: space-evenly;
+      gap:40px;
+      padding-bottom: 7px;
+    }
+  .section div{
+      display:flex;
+      flex-direction: column;
+      }
+  
+  div h2{
+      color:#1a1919;
+      padding:10px 0px;
+      }
+  div p{
+      color:#000000;
+  }
+  a{
+      color:#0a0505!important;
+      text-decoration: none!important;
+      padding: 5px;
+  }
+  a:hover{
+    color: #0a58ca!important;
+  }
+  #form_suscripcion{
+      display:flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+  
+  .derechos{
+      display:flex;
+      align-items: center;
+      justify-content:space-between;
+      padding: 10px;
+      width: 100%;
+      bottom: 0;
+      background-color: #b295d2;
+      max-height: 40px;
+      color:white;
+  }
+  
+  i{
+    color: white;
+  }
+
+  .map {
+    width: 100%;
+    height:200px;
+  }
